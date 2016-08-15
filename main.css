@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.matriz {
+	margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matriz > .linha > .carta {
+	width: 55px;
+    height: 75px;
+    border: 1px solid;
+    display: inline-block;
+    transition: transform 2s;
+    cursor: pointer;
+    background-color: gray;
+        margin: 0 2px;
+}
+
+.matriz > .linha > .carta.virada {
+    transform: rotateY(180deg);
+}

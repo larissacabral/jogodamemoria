@@ -1,0 +1,11 @@
+// qual o tamanho do array de cores?
+// (col * linha) / 2
+
+//vetor exemplo
+var x = [{x:0,y:0}, {y:0,x:1},{y:1,x:0}, {y:1,x:1}]
+
+// como escolher um aleatorio
+var sorteado = Math.floor(Math.random() * x.length)
+
+// como tirar o item sorteado do array
+x.splice(sorteado, 1)
