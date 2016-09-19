@@ -9,3 +9,6 @@ var sorteado = Math.floor(Math.random() * x.length)
 
 // como tirar o item sorteado do array
 x.splice(sorteado, 1)
+
+
+var arrayCores = 
